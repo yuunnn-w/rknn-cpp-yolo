@@ -14,6 +14,12 @@ This project implements YOLOv11 inference on the RK3588 platform using the RKNN 
 - **Zero-Copy API**: Reduces inference overhead for better efficiency.
 - **RK3588 Optimization**: Supports concurrent inference across three NPU cores (requires custom thread pool implementation).
 
+## Report: Inference Results and Speed
+
+  ![Result](https://github.com/yuunnn-w/rknn-cpp-yolo/blob/main/img/result.jpg)  
+
+  ![Speed](https://github.com/yuunnn-w/rknn-cpp-yolo/blob/main/img/speed.jpg)  
+
 ## Prerequisites
 - RK3588 development board
 - RKNPU Driver (version >= 0.9.6)
