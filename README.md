@@ -26,7 +26,7 @@ This project implements YOLOv11 inference on the RK3588 platform using the RKNN 
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/yuunnn-w/rknn-cpp-yolo.git
-   cd your-repo-name
+   cd rknn-cpp-yolo
    ```
 
 2. **Install dependencies:**
