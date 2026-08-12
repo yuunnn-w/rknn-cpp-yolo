@@ -1,3 +1,5 @@
+
+
 # rknn-cpp-yolo
 This project implements YOLOv11 inference on the RK3588 platform using the RKNN framework. With deep optimization of the official code and RGA hardware acceleration for image preprocessing, it achieves a stable 25 FPS for YOLOv11s without overclocking and core binding, showcasing efficient real-time object detection for embedded applications.
 
@@ -56,6 +58,7 @@ This project implements YOLOv11 inference on the RK3588 platform using the RKNN 
    ```bash
    cmake ..
    ```
+   *(Alternatively, use the provided CMake presets such as `cmake --preset linux-debug ..` or `cmake --preset orangepi ..`)*
 
 6. **Build the project:**
    ```bash
@@ -99,4 +102,4 @@ If you have any questions, suggestions, or would like to contribute to this proj
 - **Email**: [jiaxinsugar@gmail.com](mailto:jiaxinsugar@gmail.com)
 - **GitHub**: [yuunnn-w](https://github.com/yuunnn-w)
 
-I’m always open to discussions, collaborations, and feedback. Let’s make this project even better together! 🚀  
+I’m always open to discussions, collaborations, and feedback. Let’s make this project even better together! 🚀
